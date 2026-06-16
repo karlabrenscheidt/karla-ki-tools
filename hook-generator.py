@@ -203,7 +203,7 @@ CAPTION-HOOK REGEL: "Mutter von 3 Kindern", Wohnort oder Alter NICHT in den Capt
 Welcher der 5 Hooks hat das höchste Viral-Potenzial für diese spezifische Nische und Zielgruppe — und warum genau? Ein Satz.
 """
     response = client.messages.create(
-        model="claude-haiku-4-5-20251001",
+        model="claude-sonnet-4-6",
         max_tokens=5000,
         messages=[{"role": "user", "content": prompt}]
     )
@@ -882,7 +882,7 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial für diese spezifische Nisc
 """
 
             response = client.messages.create(
-                model="claude-haiku-4-5-20251001",
+                model="claude-sonnet-4-6",
                 max_tokens=5000,
                 messages=[{"role": "user", "content": prompt}]
             )
