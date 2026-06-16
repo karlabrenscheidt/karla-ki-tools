@@ -103,7 +103,7 @@ NISCHE: Claude Code + KI für Frauen die ein Online-Business auf Instagram aufba
 ZIELGRUPPE: Frauen 30–45, überfordert, wenig Zeit, wollen 1.000–5.000€/Monat online verdienen.
 TON: Direkt, ehrlich, keine KI-Sprache, keine Floskeln, umgangssprachlich."""
 
-    prompt = f"""Du bist Instagram Hook-Expertin auf dem Niveau der besten deutschen Content-Creators. Du kennst die exakten psychologischen Prinzipien die Reels viral machen. Aktuelles Jahr: 2026.
+    prompt = f"""Du bist Instagram Hook-Expertin und psychologische Copywriterin. Du schreibst Hooks AUSSCHLIESSLICH im Stil von Karla Brenscheidt — nicht im Stil generischer US-Marketing-Frameworks. Aktuelles Jahr: 2026.
 
 KONTEXT KARLA:
 {KARLA_KONTEXT}
@@ -121,11 +121,8 @@ Skript 2 (Fehler+Lösung): Start "Hör auf, [Fehler] zu machen" + Autorität + K
 Skript 3 (Wunsch+Eine Sache): Eigenes Ergebnis + "Diese EINE Sache" — nie mehr als einen Trick.
 Anti-Wörter vermeiden: Mindset, Klarheit, Wachstum, Transformation, Energie, sichtbar.
 Beweise Pflicht: Eigenes Ergebnis, Zeitstempel oder Kundenzahl in Satz 2-3 einbauen.
-Echte Ergebnisse: 165.009 Views auf einem Reel mit dem Hook "Donnerstag 8:52 Uhr — ich verschicke meine Bewerbung. Freitag 11 Uhr: die Zusage."
-Weiterer Top-Reel (56.980 Views): Claude löst ein Problem mit den Kindern im Garten — ganz alltäglich, keine Technik-Erklärung.
-DAS sind die Hooks die bei Karlas Zielgruppe funktionieren: spezifischer Zeitstempel + persönlicher Moment + Claude als Lösung im Alltag.
 
-━━━ KARLAS ECHTE TOP-HOOKS — GENAU DIESES NIVEAU ━━━
+━━━ KARLAS STIL — DAS IST DAS NIVEAU ━━━
 
 165.009 Views (Karlas bester Reel):
 "Donnerstag, 8:52 Uhr. Ich verschicke meine Bewerbung. Freitag um 11 Uhr: die Zusage."
@@ -138,16 +135,24 @@ DAS sind die Hooks die bei Karlas Zielgruppe funktionieren: spezifischer Zeitste
 DAS IST DER STIL: kurz, persönlich, konkreter Zeitstempel oder Alltagssituation, Claude löst etwas Unerwartetes. KEIN Tutorial-Sprech, KEIN "ich zeige dir wie".
 
 ━━━ KARLAS ALLEINSTELLUNGSMERKMAL ━━━
-Karla ist die EINZIGE deutsche Creatorin die Claude Code live auf Instagram zeigt.
-Kein Technik-Tutorial. Echte Ergebnisse im Alltag einer Mutter aus Köln.
-Die Hooks müssen diesen Kontrast nutzen: normale Frau + unerwartetes KI-Tool = unglaubliches Ergebnis.
+Karla ist die EINZIGE deutsche Creatorin, die Claude und Claude Code live im echten Leben zeigt.
+Kein Technik-Tutorial. Der Kontrast ist die Marke: normale Frau + unerwartetes Werkzeug = unglaubliches Ergebnis.
+
+━━━ KARLAS 5 EIGENE HOOK-KATEGORIEN (NUR DIESE, JE EINE PRO HOOK) ━━━
+1. DER ZEITSTEMPEL — Exakte Uhrzeit + Wochentag + ein Moment, der das Leben kippt. Zwei Zeitpunkte, dazwischen die Veränderung.
+2. DER KÜCHENTISCH-MOMENT — Banale Alltagsszene, in die Claude unerwartet platzt und sie löst. Leise Ironie erlaubt.
+3. DAS HABE ICH NIE GEGLAUBT — Eigener ehrlicher Zweifel, ausgesprochen, dann vom Ergebnis widerlegt ("Ich kann nicht [X]. Trotzdem [Ergebnis]."). Ehrliche Selbst-Konfrontation, nicht aggressiv gegen andere.
+4. DIE OFFENE TÜR — Ein Satz, der eine konkrete Lücke aufmacht und bewusst NICHT schließt — immer an einen physischen Claude-Handgriff gekoppelt, nie abstrakt.
+5. DIE NORMALE FRAU AUS KÖLN — Kontrast-Hook: durchschnittliche Frau + unerwartetes Werkzeug = unglaubliches Ergebnis. Der Erwartungsbruch ist der Sog.
+
+WICHTIG FÜR CAPTION-HOOK: "Mutter von 3 Kindern", "aus Köln" oder Karlas Alter NICHT in den Caption-Hook — nur in TEXT-HOOK/AUDIO-EINSTIEG erlaubt.
 
 ━━━ 5 NEUE HOOK-VARIANTEN (andere als vorher!) ━━━
 
-Schreibe 5 NEUE Hooks — komplett anders als typische Varianten, frisch, unerwartet.
+Schreibe 5 NEUE Hooks — frisch und unerwartet, je einer in der zugeordneten Kategorie.
 Jeder Hook enthält GENAU diese 8 Elemente. ZIEL-METRIK immer mit konkreter Prozent-Zielzahl (z.B. "Watchtime: Ziel 65%+").
 
-## HOOK 1 — ZAHLEN-HOOK
+## HOOK 1 — DER ZEITSTEMPEL
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [Text]
 **NEBEN-HOOK:** [Text]
@@ -157,7 +162,7 @@ Jeder Hook enthält GENAU diese 8 Elemente. ZIEL-METRIK immer mit konkreter Proz
 **KILLER-FEHLER:** [Text]
 **ZIEL-METRIK:** [Text]
 
-## HOOK 2 — CURIOSITY-HOOK
+## HOOK 2 — DER KÜCHENTISCH-MOMENT
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [Text]
 **NEBEN-HOOK:** [Text]
@@ -167,7 +172,7 @@ Jeder Hook enthält GENAU diese 8 Elemente. ZIEL-METRIK immer mit konkreter Proz
 **KILLER-FEHLER:** [Text]
 **ZIEL-METRIK:** [Text]
 
-## HOOK 3 — PROVOKATIONS-HOOK
+## HOOK 3 — DAS HABE ICH NIE GEGLAUBT
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [Text]
 **NEBEN-HOOK:** [Text]
@@ -177,7 +182,7 @@ Jeder Hook enthält GENAU diese 8 Elemente. ZIEL-METRIK immer mit konkreter Proz
 **KILLER-FEHLER:** [Text]
 **ZIEL-METRIK:** [Text]
 
-## HOOK 4 — STORY-HOOK
+## HOOK 4 — DIE OFFENE TÜR
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [Text]
 **NEBEN-HOOK:** [Text]
@@ -187,7 +192,7 @@ Jeder Hook enthält GENAU diese 8 Elemente. ZIEL-METRIK immer mit konkreter Proz
 **KILLER-FEHLER:** [Text]
 **ZIEL-METRIK:** [Text]
 
-## HOOK 5 — PATTERN-INTERRUPT-HOOK
+## HOOK 5 — DIE NORMALE FRAU AUS KÖLN
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [Text]
 **NEBEN-HOOK:** [Text]
@@ -597,9 +602,9 @@ if qa and qa["hooks_text"]:
     """, unsafe_allow_html=True)
 
     with st.expander("👑 Deine Queen Agent Hooks — direkt verwendbar", expanded=True):
-        hook_typen = ["ZAHLEN-HOOK", "CURIOSITY-HOOK", "PROVOKATIONS-HOOK", "STORY-HOOK", "PATTERN-INTERRUPT-HOOK"]
+        hook_typen = ["DER ZEITSTEMPEL", "DER KÜCHENTISCH-MOMENT", "DAS HABE ICH NIE GEGLAUBT", "DIE OFFENE TÜR", "DIE NORMALE FRAU AUS KÖLN"]
         farben = ["#FF08C0", "#CC0099", "#FF08C0", "#CC0099", "#FF08C0"]
-        icons = ["🔢", "🔐", "🎯", "🎬", "⚡"]
+        icons = ["⏱️", "🍽️", "🙃", "🚪", "🌆"]
 
         # Bonus-Block extrahieren und aus hooks_text entfernen
         qa_hooks_clean = qa["hooks_text"]
@@ -756,7 +761,7 @@ if st.button("🪝 5 Hooks generieren"):
         with st.spinner("Claude analysiert dein Thema und schreibt 5 Hooks mit Marktpsychologie... (~25 Sek.)"):
             client = anthropic.Anthropic(api_key=api_key)
 
-            prompt = f"""Du bist Instagram Hook-Expertin auf dem Niveau der besten deutschen Content-Creators. Du kennst die exakten psychologischen Prinzipien die Reels viral machen. Aktuelles Jahr: 2026. WICHTIG: Erfinde KEINE konkreten Daten, Monate, Releases oder Zeitstempel — verwende nur Fakten aus den Nutzereingaben. Zahlen in Hooks müssen plausibel und nicht überprüfbar falsch sein.
+            prompt = f"""Du bist Instagram Hook-Expertin und psychologische Copywriterin. Du schreibst Hooks AUSSCHLIESSLICH im Stil von Karla Brenscheidt — nicht im Stil generischer US-Marketing-Frameworks. Aktuelles Jahr: 2026. WICHTIG: Erfinde KEINE konkreten Daten, Monate, Releases oder Zeitstempel als Fakten — Zeitstempel sind nur als erzählerischer Rahmen erlaubt, echte Zahlen verwende nur aus den Nutzereingaben.
 
 KONTEXT:
 Thema: {thema}
@@ -765,31 +770,45 @@ Nische: {nische or 'nicht angegeben'}
 Transformation/Ergebnis: {ergebnis}
 Problem: {problem or 'nicht angegeben'}
 Format: {format_typ}
-Echte Ergebnisse / Social Proof: {social_proof if social_proof else 'nicht angegeben — verwende bei Zahlen-Hooks Platzhalter in eckigen Klammern wie [DEINE ZAHL] oder [DEIN ERGEBNIS], die der User selbst ausfüllen kann'}
+Echte Ergebnisse / Social Proof: {social_proof if social_proof else 'nicht angegeben — verwende bei Hooks mit Zahlen Platzhalter in eckigen Klammern wie [DEINE ZAHL] oder [DEIN ERGEBNIS], die der User selbst ausfüllen kann'}
 
-WICHTIGE REGEL FÜR ZAHLEN: Wenn echte Ergebnisse angegeben sind, verwende GENAU diese Zahlen in den Hooks — verändere sie nicht. Wenn keine echten Ergebnisse angegeben sind, setze bei Zahlen-Hooks Platzhalter in eckigen Klammern ein (z.B. "[X] Follower", "[DEIN ERGEBNIS]") die der User mit seinen echten Werten ersetzen kann.
+WICHTIGE REGEL FÜR ZAHLEN: Wenn echte Ergebnisse angegeben sind, verwende GENAU diese Zahlen — verändere sie nicht. Wenn keine angegeben sind, setze Platzhalter in eckigen Klammern ein (z.B. "[X] Follower", "[DEIN ERGEBNIS]"), die der User mit seinen echten Werten ersetzen kann.
 
-━━━ REFERENZ-BEISPIELE — GENAU DIESES NIVEAU ━━━
+━━━ KARLAS STIL — DAS IST DAS NIVEAU, AN DEM DU DICH MISST ━━━
 
-Zahlen + Social Proof (viral, weil unglaublich aber beweisbar):
-"Bei 220 Followern hatte ich 44.000 Aufrufe in einer Woche. Hier ist exakt was ich getan habe."
+Karlas bester Reel, 165.009 Views:
+"Donnerstag, 8:52 Uhr. Ich verschicke meine Bewerbung. Freitag um 11 Uhr: die Zusage."
+→ Warum es zieht: exakter Zeitstempel, echter Alltagsmoment, Claude bleibt unsichtbar im Hintergrund. Kein Tutorial-Sprech.
 
-Curiosity Gap (viral, weil Lücke offen bleibt):
-"NIEMAND erklärt dir das über den Instagram-Algorithmus — dabei entscheidet genau das, ob du wächst oder nicht."
+Karlas zweitbester Reel, 56.980 Views:
+"Unser Garten war der einzige Ort wo meine Kinder nie spielen wollten. Dann habe ich Claude gefragt. Jetzt wollen sie nicht mehr drinnen spielen."
+→ Warum es zieht: banales Alltagsproblem + Claude als überraschende Lösung + leise Ironie.
 
-Provokation (viral, weil es spaltet und geteilt wird):
-"Wer täglich postet und trotzdem nicht wächst, macht immer denselben einen Fehler."
+Weiterer Beweis-Hook (32.000 Views in 60 Tagen):
+→ Zahlen mit Kontext, nie als Prahlerei, sondern als Beweis dass es funktioniert.
 
-Storytelling (viral, weil Cliffhanger + Spiegel-Effekt):
-"Gestern früh um 6:47 Uhr habe ich aufgehört, meinen Content manuell zu erstellen. Seitdem nie wieder."
-
-Pattern Interrupt (viral, weil Widerspruch den Autopiloten stoppt):
-"Ich programmiere nicht. Ich habe trotzdem einen KI-Agenten der meinen Content macht — während ich schlafe."
+DAS IST DER STIL: kurz, persönlich, ein konkreter Moment oder eine Alltagsszene, Claude löst etwas Unerwartetes. NIEMALS "ich zeige dir wie", NIEMALS Tool-Tutorial, NIEMALS US-Marketing-Vokabular.
 
 ━━━ KARLAS ALLEINSTELLUNGSMERKMAL ━━━
-Karla ist die EINZIGE deutsche Creatorin die Claude Code live auf Instagram zeigt.
-Kein Technik-Tutorial. Echte Ergebnisse im Alltag.
-Die Hooks müssen diesen Kontrast nutzen: normale Frau + unerwartetes KI-Tool = unglaubliches Ergebnis.
+Karla ist die EINZIGE deutsche Creatorin, die Claude und Claude Code live im echten Leben zeigt — nicht als Technik-Tutorial, sondern als Werkzeug im Alltag.
+Der Kontrast ist die ganze Marke: normale Frau, kein Tech-Background, mittendrin im Alltag — und trotzdem ein unglaubliches Ergebnis mit KI.
+
+━━━ KARLAS 5 EIGENE HOOK-KATEGORIEN (NUR DIESE VERWENDEN) ━━━
+
+1. DER ZEITSTEMPEL
+Exakte Uhrzeit + Wochentag + ein echter Moment, der das Leben kippt. Vorbild: "Donnerstag, 8:52 Uhr. Ich verschicke meine Bewerbung. Freitag um 11 Uhr: die Zusage." Zwei Zeitpunkte, dazwischen die Veränderung. Claude bleibt im Hintergrund.
+
+2. DER KÜCHENTISCH-MOMENT
+Eine banale Alltagsszene, in die Claude unerwartet platzt und sie löst. Vorbild: das Garten-Reel. Leise Ironie erlaubt. Es muss sich anfühlen wie ein echter Moment, kein konstruiertes Beispiel.
+
+3. DAS HABE ICH NIE GEGLAUBT
+Ein eigener ehrlicher Zweifel, ausgesprochen — und dann vom Ergebnis widerlegt. Form: "Ich kann nicht [X]. Trotzdem [unglaubliches Ergebnis]." Spiegelt die Selbstzweifel der Zielgruppe. Spaltet NICHT aggressiv gegen andere, sondern ist ehrliche Selbst-Konfrontation.
+
+4. DIE OFFENE TÜR
+Ein Satz, der eine konkrete Lücke aufmacht und sie bewusst NICHT schließt — immer an einen physischen Claude-Handgriff gekoppelt, nie abstrakt. Form: "Diesen einen Satz tippe ich in Claude, bevor ich irgendwas poste —". Konkret und greifbar, keine vage Neugier.
+
+5. DIE NORMALE FRAU AUS KÖLN
+Der Kontrast-Hook: durchschnittliche Frau + unerwartetes Werkzeug = unglaubliches Ergebnis. Form: "Ich [normale Alltagsrolle aus Köln]. Und ich [Ergebnis, das niemand erwartet]." Der Bruch der Erwartung ist der ganze Sog.
 
 {"" if "B-Roll" in format_typ else """
 ━━━ TALKING HEAD — DASCHA STORIES METHODE (PFLICHT) ━━━
@@ -834,21 +853,25 @@ Ohne Beweis = kein Vertrauen = Reel wird weggescrollt.
 2. SIMPEL — Wie für ein 12-jähriges Kind. Kein Fachjargon.
 3. RELEVANT — So spitz wie möglich auf die Zielgruppe zugeschnitten.
 4. KONKRET — Unrunde Zahlen (213 statt 200), Zeitstempel (14:23 Uhr), echte Situationen.
-5. TRIGGERT — MUSS Dopamin (Quick Win / AHA) ODER FOMO (ich verpasse etwas) auslösen.
+5. KLINGT NACH KARLA — Jeder Satz muss klingen, als hätte Karla ihn selbst gesprochen: direkt, nahbar, ehrlich chaotisch. Keine KI-Sprache, keine Floskeln, keine Marketing-Phrasen.
 
-━━━ DIE 7 PSYCHOLOGISCHEN TRIGGER ━━━
+━━━ WIE JEDE KATEGORIE PSYCHOLOGISCH GREIFT ━━━
 
-1. TRIGGER-WÖRTER (immer GROSSSCHREIBEN): NIEMAND, GEHEIM, VERBOTEN, ACHTUNG, BLINDSPOT, KAUM JEMAND, DIE WAHRHEIT, DAS HIER
-2. CURIOSITY GAP: Lücke aufmachen — niemals schließen. Fragen-Hook oder CS-Methode ("Ich bin die, die X — obwohl sie nur Y")
-3. PROVOKATION: Starkes Statement das spaltet. Geteilt werden = bestes Algorithmus-Signal.
-4. STORYTELLING: Cliffhanger wie Netflix. Konkreter Zeitstempel + offenes Ende.
-5. PATTERN INTERRUPT: Widerspruch, Kontrast, das Unerwartete. Reißt aus dem Autopiloten.
-6. ZAHLEN: Unrunde Zahlen (37% statt 40%, 213 statt 200). Kleine Werte = Dringlichkeit. Extreme = Neugier.
-7. SOCIAL PROOF: Echte Ergebnisse. Kunden-Zitate. "Von 127 sind 124 durchgekommen."
+Jede der 5 Kategorien zieht über einen klaren Mechanismus — nutze ihn bewusst:
+1. DER ZEITSTEMPEL → Beweis + Tempo. Zwei konkrete Zeitpunkte machen die Veränderung greifbar und glaubwürdig.
+2. DER KÜCHENTISCH-MOMENT → Wiedererkennung + Überraschung. Die Zielgruppe sieht ihren eigenen Alltag, dann kippt die Erwartung.
+3. DAS HABE ICH NIE GEGLAUBT → Spiegel-Effekt. Der ausgesprochene Zweifel ist der Zweifel der Zuschauerin. Die Widerlegung gibt Hoffnung.
+4. DIE OFFENE TÜR → Lücke, die offen bleibt. Der konkrete Claude-Handgriff macht neugierig auf das, was fehlt.
+5. DIE NORMALE FRAU AUS KÖLN → Erwartungsbruch. Normale Person + unerwartetes Werkzeug stoppt den Autopiloten.
+
+HILFSMITTEL (sparsam, nie aufgesetzt):
+- Trigger-Wörter nur wenn sie wirklich passen (NIEMAND, KAUM JEMAND, DAS HIER) — niemals erzwingen.
+- Unrunde Zahlen statt runde (37 statt 40, 213 statt 200).
+- Echte Ergebnisse als Beweis, nie als Prahlerei.
 
 ━━━ DEINE AUFGABE ━━━
 
-Schreibe 5 Hooks. Jeder Hook hat GENAU 8 Elemente:
+Schreibe 5 Hooks — Hook 1 in Kategorie 1, Hook 2 in Kategorie 2 usw. (siehe Kategorien-Liste oben). Jeder Hook hat GENAU 8 Elemente:
 
 TEXT-HOOK: Einblendtext groß im Reel. 1-2 Sätze. Stoppt den Scroll sofort. KEIN "Hey" oder Begrüßung.
 VISUAL-HOOK: Was in den ersten 3 Sekunden zu sehen ist — konkrete Filmregie-Anweisung passend zu Format "{format_typ}".
@@ -859,11 +882,13 @@ PSYCHOLOGIE: Erkläre in 1-2 Sätzen WARUM genau dieser Hook diese Zielgruppe ni
 KILLER-FEHLER: Der eine Fehler den 90% machen wenn sie diesen Hook-Typ verwenden — und der ihn sofort tötet.
 ZIEL-METRIK: Welche Instagram-Metrik maximiert dieser Hook? (Watchtime / Saves / Shares / Kommentare / Profilbesuche) — und warum genau diese. Nenne immer eine konkrete Prozent-Zielzahl (z.B. "Watchtime: Ziel 65%+ — weil der Cliffhanger erst in Sekunde 12 aufgelöst wird").
 
-Nutze für jeden Hook einen anderen Trigger. Deutsch, direkt, umgangssprachlich. Keine KI-Sprache. Keine Floskeln.
+Nutze pro Hook die jeweils zugeordnete Kategorie. Deutsch, direkt, umgangssprachlich. Keine KI-Sprache. Keine Floskeln.
+
+WICHTIG FÜR CAPTION-HOOK: Schreibe NICHT "Mutter von 3 Kindern", "aus Köln" oder Karlas Alter in den Caption-Hook — diese Infos gehören nur in den gesprochenen/eingeblendeten Hook, nie in den Caption-Body. (Bei Kategorie 5 dürfen Mutter/Köln im TEXT-HOOK und AUDIO-EINSTIEG stehen, im CAPTION-HOOK nicht.)
 
 ━━━ AUSGABE-FORMAT — EXAKT SO, KEINE ABWEICHUNGEN ━━━
 
-HOOK 1 — ZAHLEN-HOOK
+HOOK 1 — DER ZEITSTEMPEL
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [Text]
 NEBEN-HOOK: [Text]
@@ -873,7 +898,7 @@ PSYCHOLOGIE: [Text]
 KILLER-FEHLER: [Text]
 ZIEL-METRIK: [Text]
 
-HOOK 2 — CURIOSITY-HOOK
+HOOK 2 — DER KÜCHENTISCH-MOMENT
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [Text]
 NEBEN-HOOK: [Text]
@@ -883,7 +908,7 @@ PSYCHOLOGIE: [Text]
 KILLER-FEHLER: [Text]
 ZIEL-METRIK: [Text]
 
-HOOK 3 — PROVOKATIONS-HOOK
+HOOK 3 — DAS HABE ICH NIE GEGLAUBT
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [Text]
 NEBEN-HOOK: [Text]
@@ -893,7 +918,7 @@ PSYCHOLOGIE: [Text]
 KILLER-FEHLER: [Text]
 ZIEL-METRIK: [Text]
 
-HOOK 4 — STORY-HOOK
+HOOK 4 — DIE OFFENE TÜR
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [Text]
 NEBEN-HOOK: [Text]
@@ -903,7 +928,7 @@ PSYCHOLOGIE: [Text]
 KILLER-FEHLER: [Text]
 ZIEL-METRIK: [Text]
 
-HOOK 5 — PATTERN-INTERRUPT-HOOK
+HOOK 5 — DIE NORMALE FRAU AUS KÖLN
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [Text]
 NEBEN-HOOK: [Text]
@@ -960,11 +985,11 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial für diese spezifische Nisc
                 """, unsafe_allow_html=True)
 
         hook_display = [
-            ("🔢", "Zahlen + Social Proof",  "#FF08C0"),
-            ("🔐", "Curiosity Gap",          "#CC0099"),
-            ("🎯", "Provokation",            "#FF08C0"),
-            ("🎬", "Storytelling",           "#CC0099"),
-            ("⚡", "Pattern Interrupt",      "#FF08C0"),
+            ("⏱️", "Der Zeitstempel",            "#FF08C0"),
+            ("🍽️", "Der Küchentisch-Moment",     "#CC0099"),
+            ("🙃", "Das habe ich nie geglaubt",  "#FF08C0"),
+            ("🚪", "Die offene Tür",             "#CC0099"),
+            ("🌆", "Die normale Frau aus Köln",  "#FF08C0"),
         ]
 
         def clean(text):
