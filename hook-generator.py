@@ -9,7 +9,10 @@ WORKSPACE     = Path("/Users/admin/Desktop/Claude Code Mastery")
 API_KEY_FILE  = WORKSPACE / ".env"
 PHOTO_FILE    = Path(__file__).parent / "karla-photo-small.jpg"
 ACCESS_CODE   = "KARLA2026"
-KURS_URL      = "https://karla.brenscheidt.de/content-flow-mit-claude"
+# TODO: Sobald der Mini-Kurs "Content Flow mit Claude Code" live ist, hier den echten Link eintragen.
+# Bis dahin Platzhalter: führt auf Karlas Instagram, damit kein toter Link entsteht.
+KURS_URL      = "https://www.instagram.com/karla.brenscheidt"
+KURS_VERFUEGBAR = False  # auf True setzen, wenn der Kurs-Link steht
 
 
 def load_marktforschung():
@@ -961,6 +964,7 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
 
         # ─── Upsell: Content-Flow mit Claude ─────────────────────
         st.markdown("<br>", unsafe_allow_html=True)
+        kurs_cta = "Content Flow mit Claude Code · 27 € →" if KURS_VERFUEGBAR else "Content Flow mit Claude Code · bald verfügbar 🔜"
         st.markdown(f"""
         <div style="background: linear-gradient(135deg, #FF08C0 0%, #CC0099 100%);
                     border-radius: 20px; padding: 2rem 2rem 1.75rem 2rem;
@@ -995,7 +999,7 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
                 text-transform:uppercase;
                 box-shadow:0 6px 24px rgba(0,0,0,0.2);
                 transition:all 0.2s ease;">
-                Content Flow mit Claude Code · 27 € →
+                {kurs_cta}
             </a>
             <div style="font-size:0.7rem; color:rgba(255,255,255,0.55);
                         margin-top:1rem; letter-spacing:0.05em;">
