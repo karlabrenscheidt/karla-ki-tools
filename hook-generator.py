@@ -512,10 +512,10 @@ if not st.session_state.authenticated:
                        font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ 5 Hook-Varianten</span>
           <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                        color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Visual-Hook</span>
+                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Sofort postbar</span>
           <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                        color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Caption-Hook</span>
+                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ In Karlas Stil</span>
         </div>
       </div>
     </div>
@@ -538,7 +538,7 @@ if not st.session_state.authenticated:
                 text-transform:uppercase;margin-bottom:0.9rem;">Was du bekommst</div>
     <div style="display:flex;flex-direction:column;gap:0.6rem;">
         <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;5 fertige Hooks zum Posten</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Pro Hook: Text-Hook, Visual-Hook, Caption-Hook</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Nur der Hook — sofort einsetzbar</div>
         <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;5 verschiedene Hook-Typen für jedes Thema</div>
         <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Dein stärkster Hook — direkt hervorgehoben</div>
         <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Einfach Thema eingeben, fertig</div>
@@ -574,10 +574,10 @@ st.markdown(f"""
                    font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ 5 Hook-Varianten</span>
       <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                    color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Visual-Hook</span>
+                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Sofort postbar</span>
       <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                    color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Caption-Hook</span>
+                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ In Karlas Stil</span>
     </div>
   </div>
 </div>
@@ -696,7 +696,7 @@ if qa and qa["hooks_text"]:
 
 st.markdown("""
 <div class="info-pill">
-💡 Gib dein Thema ein — Claude schreibt dir 5 fertige Hooks: Text-Hook, Visual-Hook und Caption-Hook.
+💡 Gib dein Thema ein — Claude schreibt dir 5 fertige Hooks zum Posten.
 </div>
 """, unsafe_allow_html=True)
 
@@ -830,36 +830,26 @@ Immer konkret und filmbar. Wenn du es nicht FILMEN kannst, ist es nicht konkret 
 HILFSMITTEL (sparsam, nie aufgesetzt):
 - TRIGGER-WÖRTER: Wo es natürlich passt, ein Power-Wort einbauen und GROSS schreiben (NIEMAND, KAUM JEMAND, ACHTUNG, NIE, EINZIGE). Nie erzwingen, nie mehr als eins pro Hook, muss klingen wie Karla spricht.
 - Unrunde Zahlen statt runde (37 statt 40, 213 statt 200).
-- VISUAL-CUE: Maximal 5 Wörter was zu sehen ist. KEINE Szenen-Beschreibung, KEIN Regietext, KEINE Filmregie-Anweisungen.
 
 ━━━ AUSGABE-FORMAT — EXAKT SO, KEINE ABWEICHUNGEN ━━━
 
-Pro Hook NUR diese 3 Felder. Sonst nichts. Keine Psychologie, keine Erklärung, keine Metrik.
+Pro Hook NUR den Hook selbst. Eine Zeile. Sonst NICHTS — keine Visual-Beschreibung, keine Caption, keine Psychologie, keine Erklärung, keine Metrik.
+Kein Wohnort, kein Alter, keine Familieninfo im Hook.
 
 HOOK 1 — ZAHLEN & BEWEIS-HOOK
-TEXT-HOOK: [der Text, der im Video eingeblendet wird]
-VISUAL-HOOK: [max. 5 Wörter — was man im Bild sieht, keine Szene]
-CAPTION-HOOK: [erster Satz der Caption — kein Wohnort, kein Alter, keine Familieninfo]
+TEXT-HOOK: [der Hook]
 
 HOOK 2 — NEUGIER-HOOK
-TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter]
-CAPTION-HOOK: [Text]
+TEXT-HOOK: [der Hook]
 
 HOOK 3 — PROVOKATIONS-HOOK
-TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter]
-CAPTION-HOOK: [Text]
+TEXT-HOOK: [der Hook]
 
 HOOK 4 — MOMENT-HOOK
-TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter]
-CAPTION-HOOK: [Text]
+TEXT-HOOK: [der Hook]
 
 HOOK 5 — STOPP-HOOK
-TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter]
-CAPTION-HOOK: [Text]
+TEXT-HOOK: [der Hook]
 
 ━━━ BONUS: DEIN STÄRKSTER HOOK ━━━
 Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
@@ -941,21 +931,14 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
             if i >= len(hook_display):
                 continue
 
-            text_hook   = extract_field(block, "TEXT-HOOK")
-            visual_hook = extract_field(block, "VISUAL-HOOK")
-            neben_hook  = extract_field(block, "NEBEN-HOOK")
-            audio       = extract_field(block, "AUDIO-EINSTIEG")
-            caption     = extract_field(block, "CAPTION-HOOK")
-            psychologie = extract_field(block, "PSYCHOLOGIE")
-            killer      = extract_field(block, "KILLER-FEHLER")
-            metrik      = extract_field(block, "ZIEL-METRIK")
+            text_hook = extract_field(block, "TEXT-HOOK")
 
             if not text_hook:
                 continue
 
             icon, title, border_color = hook_display[i]
 
-            # Hook-Karte: Titel + Haupt-Text
+            # Hook-Karte: Titel + Hook
             st.markdown(f"""
             <div style="border-left:5px solid {border_color}; background:white; border-radius:0 12px 12px 0;
                         padding:1.25rem 1.5rem 1rem 1.5rem; margin-bottom:0.5rem;
@@ -967,24 +950,9 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
             </div>
             """, unsafe_allow_html=True)
 
-            # Sub-Elemente: Umsetzung (ganz einfach gehalten)
-            st.caption("📸 **Visual-Hook** — *was man im Video sieht*")
-            st.write(visual_hook)
-            st.caption("✍️ **Caption-Hook** — *erster Satz der Caption*")
-            st.write(caption)
-
-            # Copy-Paste Block
-            copy_text = f"""📱 TEXT-HOOK:
-{text_hook}
-
-📸 VISUAL:
-{visual_hook}
-
-✍️ CAPTION-HOOK:
-{caption}"""
-            with st.expander("📋 Alles kopieren"):
-                st.caption("💡 Tipp: Speichere die Hooks in deinen Notizen und teste erst als Trial Reel bevor du Energie investierst.")
-                st.code(copy_text, language=None)
+            # Copy-Paste Block (nur der Hook)
+            with st.expander("📋 Hook kopieren"):
+                st.code(text_hook, language=None)
 
             st.markdown("<br>", unsafe_allow_html=True)
 
