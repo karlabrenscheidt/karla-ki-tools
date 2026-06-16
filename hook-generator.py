@@ -956,7 +956,6 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
             st.markdown("<br>", unsafe_allow_html=True)
 
         st.markdown("---")
-        st.caption("Schreib mir auf Instagram @karla.brenscheidt wenn du wissen willst welcher Hook bei dir am stärksten performed. 👋")
 
 st.markdown("""
 <div class="karla-badge">
