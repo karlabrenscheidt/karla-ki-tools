@@ -148,8 +148,16 @@ ABSOLUTES VERBOT: Kein Satz darf mit einem Gedankenstrich (—) enden. Vollstän
 PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung. Kommafehler oder fehlende Satzzeichen sind nicht akzeptabel.
 VISUAL-CUE REGEL: Der VISUAL-HOOK ist maximal 5 Wörter — nur was zu sehen ist (z.B. "Handy-Screen, Zahlen steigen"). KEINE Szenen-Beschreibung, KEIN Regietext, KEINE Filmregieanweisungen.
 CAPTION-HOOK REGEL: "Mutter von 3 Kindern", Wohnort oder Alter NICHT in den Caption-Hook.
+TRIGGER-WÖRTER REGEL: Wo es natürlich passt, ein Power-Wort einbauen und GROSS schreiben (NIEMAND, KAUM JEMAND, ACHTUNG, NIE, EINZIGE). Niemals erzwingen, nie mehr als eins pro Hook, es muss klingen wie Karla spricht.
 
-## HOOK 1 — ZAHLEN-HOOK
+KATEGORIE-MECHANIK (je ein Hook pro Typ):
+1. ZAHLEN & BEWEIS-HOOK → Eine konkrete, unrunde Zahl oder ein echtes Ergebnis als Beweis (z.B. "Bei 213 Followern 44.000 Aufrufe"). Social Proof, nie Prahlerei. Wenn keine echte Zahl da ist, Platzhalter in eckigen Klammern.
+2. NEUGIER-HOOK → Wissenslücke aufmachen und NICHT schließen. Eine Behauptung, die sofort die Frage "Was denn genau?" auslöst.
+3. PROVOKATIONS-HOOK → Sanfte Reibung im Dascha-Stil: "Hör auf, [konkreter Fehler] zu machen" oder "Du machst wahrscheinlich diesen einen Fehler". Reibung am Verhalten der Zielgruppe, NIE Angriff auf andere Personen, kein Leadership-Pathos.
+4. MOMENT-HOOK → Exakter Zeitstempel plus persönlicher Alltagsmoment. Zwei Zeitpunkte, dazwischen die Veränderung. Kein Tutorial, nur das Ergebnis.
+5. STOPP-HOOK → Erwartungsbruch. Etwas das nicht zusammenpasst (normale Frau, unmögliches Ergebnis). Stoppt den Daumen sofort.
+
+## HOOK 1 — ZAHLEN & BEWEIS-HOOK
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [max. 5 Wörter]
 **NEBEN-HOOK:** [Text]
@@ -169,7 +177,7 @@ CAPTION-HOOK REGEL: "Mutter von 3 Kindern", Wohnort oder Alter NICHT in den Capt
 **KILLER-FEHLER:** [Text]
 **ZIEL-METRIK:** [Text]
 
-## HOOK 3 — WIDERSPRUCHS-HOOK
+## HOOK 3 — PROVOKATIONS-HOOK
 **TEXT-HOOK:** [Text]
 **VISUAL-HOOK:** [max. 5 Wörter]
 **NEBEN-HOOK:** [Text]
@@ -599,7 +607,7 @@ if qa and qa["hooks_text"]:
     """, unsafe_allow_html=True)
 
     with st.expander("👑 Deine Queen Agent Hooks — direkt verwendbar", expanded=True):
-        hook_typen = ["ZAHLEN-HOOK", "NEUGIER-HOOK", "WIDERSPRUCHS-HOOK", "MOMENT-HOOK", "STOPP-HOOK"]
+        hook_typen = ["ZAHLEN & BEWEIS-HOOK", "NEUGIER-HOOK", "PROVOKATIONS-HOOK", "MOMENT-HOOK", "STOPP-HOOK"]
         farben = ["#FF08C0", "#CC0099", "#FF08C0", "#CC0099", "#FF08C0"]
         icons = ["⏱️", "🍽️", "🙃", "🚪", "🌆"]
 
@@ -814,20 +822,20 @@ Immer konkret und filmbar. Wenn du es nicht FILMEN kannst, ist es nicht konkret 
 
 ━━━ 5 HOOK-TYPEN — PSYCHOLOGISCHE MECHANIK ━━━
 
-1. ZAHLEN-HOOK → Beweis durch Zahl + Kontext. Konkrete Zahl + Zeitstempel = sofortige Glaubwürdigkeit. Nie als Prahlerei, immer als Beweis.
+1. ZAHLEN & BEWEIS-HOOK → Eine konkrete, unrunde Zahl oder ein echtes Ergebnis als Beweis (z.B. "Bei 213 Followern 44.000 Aufrufe"). Social Proof statt Prahlerei. Ohne echte Zahl Platzhalter in eckigen Klammern.
 2. NEUGIER-HOOK → Wissenslücke öffnen. Eine Behauptung die sofort eine Frage aufwirft. Was fehlt? Was weiß ich nicht? Die Lücke bleibt offen bis zum Ende.
-3. WIDERSPRUCHS-HOOK → Zwei Dinge die nicht zusammenpassen. Erst Widerspruch benennen, dann auflösen. Stoppt den Autopiloten.
+3. PROVOKATIONS-HOOK → Sanfte Reibung im Dascha-Stil: "Hör auf, [konkreter Fehler] zu machen" oder "Du machst wahrscheinlich diesen einen Fehler". Reibung am Verhalten der Zielgruppe, NIE Angriff auf andere Personen, kein Leadership-Pathos.
 4. MOMENT-HOOK → Exakter Zeitstempel + persönlicher Moment. Zwei Zeitpunkte, dazwischen die Veränderung. Kein Tutorial, nur das Ergebnis.
-5. STOPP-HOOK → Das Unerwartete. Etwas das nicht zum Kontext passt — eine normale Person mit einem unmöglichen Ergebnis. Der Erwartungsbruch erzeugt den Sog.
+5. STOPP-HOOK → Das Unerwartete. Etwas das nicht zum Kontext passt — eine normale Frau mit einem unmöglichen Ergebnis. Der Erwartungsbruch erzeugt den Sog.
 
 HILFSMITTEL (sparsam, nie aufgesetzt):
-- Trigger-Wörter nur wenn sie wirklich passen (NIEMAND, KAUM JEMAND).
+- TRIGGER-WÖRTER: Wo es natürlich passt, ein Power-Wort einbauen und GROSS schreiben (NIEMAND, KAUM JEMAND, ACHTUNG, NIE, EINZIGE). Nie erzwingen, nie mehr als eins pro Hook, muss klingen wie Karla spricht.
 - Unrunde Zahlen statt runde (37 statt 40, 213 statt 200).
 - VISUAL-CUE: Maximal 5 Wörter was zu sehen ist. KEINE Szenen-Beschreibung, KEIN Regietext, KEINE Filmregie-Anweisungen.
 
 ━━━ AUSGABE-FORMAT — EXAKT SO, KEINE ABWEICHUNGEN ━━━
 
-HOOK 1 — ZAHLEN-HOOK
+HOOK 1 — ZAHLEN & BEWEIS-HOOK
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
 NEBEN-HOOK: [Text]
@@ -847,7 +855,7 @@ PSYCHOLOGIE: [Text]
 KILLER-FEHLER: [Text]
 ZIEL-METRIK: [Text]
 
-HOOK 3 — WIDERSPRUCHS-HOOK
+HOOK 3 — PROVOKATIONS-HOOK
 TEXT-HOOK: [Text]
 VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
 NEBEN-HOOK: [Text]
