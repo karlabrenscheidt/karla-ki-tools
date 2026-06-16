@@ -146,6 +146,7 @@ Kein Technik-Tutorial. Der Kontrast ist die Marke: normale Frau + unerwartetes W
 5. DIE NORMALE FRAU AUS KÖLN — Kontrast-Hook: durchschnittliche Frau + unerwartetes Werkzeug = unglaubliches Ergebnis. Der Erwartungsbruch ist der Sog.
 
 WICHTIG FÜR CAPTION-HOOK: "Mutter von 3 Kindern", "aus Köln" oder Karlas Alter NICHT in den Caption-Hook — nur in TEXT-HOOK/AUDIO-EINSTIEG erlaubt.
+ABSOLUTES VERBOT: Kein Satz darf mit einem Gedankenstrich (—) enden. Kein "Das ist der Fehler —", kein "Hier ist was ich gemacht hab —". Vollständige Sätze. Kein KI-Cliffhanger-Muster.
 
 ━━━ 5 NEUE HOOK-VARIANTEN (andere als vorher!) ━━━
 
