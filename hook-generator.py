@@ -9,10 +9,6 @@ WORKSPACE     = Path("/Users/admin/Desktop/Claude Code Mastery")
 API_KEY_FILE  = WORKSPACE / ".env"
 PHOTO_FILE    = Path(__file__).parent / "karla-photo-small.jpg"
 ACCESS_CODE   = "KARLA2026"
-# TODO: Sobald der Mini-Kurs "Content Flow mit Claude Code" live ist, hier den echten Link eintragen.
-# Bis dahin Platzhalter: führt auf Karlas Instagram, damit kein toter Link entsteht.
-KURS_URL      = "https://www.instagram.com/karla.brenscheidt"
-KURS_VERFUEGBAR = False  # auf True setzen, wenn der Kurs-Link steht
 
 
 def load_marktforschung():
@@ -961,53 +957,6 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
 
         st.markdown("---")
         st.caption("Schreib mir auf Instagram @karla.brenscheidt wenn du wissen willst welcher Hook bei dir am stärksten performed. 👋")
-
-        # ─── Upsell: Content-Flow mit Claude ─────────────────────
-        st.markdown("<br>", unsafe_allow_html=True)
-        kurs_cta = "Content Flow mit Claude Code · 27 € →" if KURS_VERFUEGBAR else "Content Flow mit Claude Code · bald verfügbar 🔜"
-        st.markdown(f"""
-        <div style="background: linear-gradient(135deg, #FF08C0 0%, #CC0099 100%);
-                    border-radius: 20px; padding: 2rem 2rem 1.75rem 2rem;
-                    text-align: center; box-shadow: 0 12px 40px rgba(255,8,192,0.35);">
-            <div style="display:inline-block; background:rgba(255,255,255,0.2);
-                        border:1.5px solid rgba(255,255,255,0.4); color:white;
-                        border-radius:50px; padding:0.2rem 0.9rem;
-                        font-size:0.6rem; font-weight:800; letter-spacing:0.2em;
-                        text-transform:uppercase; margin-bottom:1rem;">
-                ✦ Der nächste Schritt
-            </div>
-            <div style="font-size:1.6rem; font-weight:900; color:white;
-                        line-height:1.1; letter-spacing:-0.02em; margin-bottom:0.75rem;">
-                Du weißt jetzt wie ein Hook<br>klingt der performt.
-            </div>
-            <div style="font-size:0.9rem; color:rgba(255,255,255,0.88);
-                        line-height:1.6; margin-bottom:1.5rem; max-width:480px; margin-left:auto; margin-right:auto;">
-                Jetzt braucht es Content der die Hooks trägt — Reels, Stories, Karussells.
-                Im Mini-Kurs <strong style="color:white;">Content Flow mit Claude Code</strong> baust du eine ganze Woche davon
-                in einer einzigen Session.
-            </div>
-            <a href="{KURS_URL}" target="_blank" style="
-                display:inline-block;
-                background:white;
-                color:#FF08C0;
-                border-radius:50px;
-                padding:0.85rem 2.2rem;
-                font-size:0.9rem;
-                font-weight:900;
-                text-decoration:none;
-                letter-spacing:0.08em;
-                text-transform:uppercase;
-                box-shadow:0 6px 24px rgba(0,0,0,0.2);
-                transition:all 0.2s ease;">
-                {kurs_cta}
-            </a>
-            <div style="font-size:0.7rem; color:rgba(255,255,255,0.55);
-                        margin-top:1rem; letter-spacing:0.05em;">
-                @karla.brenscheidt
-            </div>
-        </div>
-        """, unsafe_allow_html=True)
-        st.markdown("<br>", unsafe_allow_html=True)
 
 st.markdown("""
 <div class="karla-badge">
