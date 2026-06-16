@@ -512,7 +512,7 @@ if not st.session_state.authenticated:
                        font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ 5 Hook-Varianten</span>
           <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                        color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Psychologie-Analyse</span>
+                       font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Visual-Hook</span>
           <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                        color:white;border-radius:50px;padding:0.22rem 0.8rem;
                        font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Caption-Hook</span>
@@ -537,12 +537,11 @@ if not st.session_state.authenticated:
     <div style="font-size:0.7rem;font-weight:800;color:#FF08C0;letter-spacing:0.18em;
                 text-transform:uppercase;margin-bottom:0.9rem;">Was du bekommst</div>
     <div style="display:flex;flex-direction:column;gap:0.6rem;">
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;5 Hook-Varianten — Text, Visual, Audio, Caption</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Psychologie: warum jeder Hook diese Zielgruppe stoppt</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Der Killer-Fehler den 90% machen — und wie du ihn vermeidest</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Welche Metrik jeder Hook maximiert und warum</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;5 fertige Hooks zum Posten</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Pro Hook: Text-Hook, Visual-Hook, Caption-Hook</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;5 verschiedene Hook-Typen für jedes Thema</div>
         <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Dein stärkster Hook — direkt hervorgehoben</div>
-        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Queen Agent Hooks aus echten Marktdaten</div>
+        <div style="font-size:0.88rem;color:rgba(255,255,255,0.85);">✓ &nbsp;Einfach Thema eingeben, fertig</div>
     </div>
 </div>
 <div style="text-align:center;font-size:0.82rem;color:rgba(255,255,255,0.45);margin-top:0.9rem;line-height:1.7;">
@@ -575,7 +574,7 @@ st.markdown(f"""
                    font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ 5 Hook-Varianten</span>
       <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                    color:white;border-radius:50px;padding:0.22rem 0.8rem;
-                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Psychologie-Analyse</span>
+                   font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Visual-Hook</span>
       <span style="background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.35);
                    color:white;border-radius:50px;padding:0.22rem 0.8rem;
                    font-size:0.62rem;font-weight:700;letter-spacing:0.06em;">✓ Caption-Hook</span>
@@ -584,8 +583,8 @@ st.markdown(f"""
 </div>
 """, unsafe_allow_html=True)
 
-# ─── Queen Agent Hooks (direkt anzeigen wenn vorhanden) ──────────
-qa = load_queen_agent_hooks()
+# ─── Queen Agent Hooks (deaktiviert — Generator soll ganz einfach bleiben) ──────────
+qa = None
 if qa and qa["hooks_text"]:
     st.markdown(f"""
     <div style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
@@ -697,7 +696,7 @@ if qa and qa["hooks_text"]:
 
 st.markdown("""
 <div class="info-pill">
-💡 Gib dein Thema ein — Claude schreibt dir 5 Hooks mit Psychologie-Analyse, Killer-Fehler und Ziel-Metrik.
+💡 Gib dein Thema ein — Claude schreibt dir 5 fertige Hooks: Text-Hook, Visual-Hook und Caption-Hook.
 </div>
 """, unsafe_allow_html=True)
 
@@ -835,58 +834,35 @@ HILFSMITTEL (sparsam, nie aufgesetzt):
 
 ━━━ AUSGABE-FORMAT — EXAKT SO, KEINE ABWEICHUNGEN ━━━
 
+Pro Hook NUR diese 3 Felder. Sonst nichts. Keine Psychologie, keine Erklärung, keine Metrik.
+
 HOOK 1 — ZAHLEN & BEWEIS-HOOK
-TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
-NEBEN-HOOK: [Text]
-AUDIO-EINSTIEG: [Text]
-CAPTION-HOOK: [Text — kein Wohnort, kein Alter, keine Familieninfo]
-PSYCHOLOGIE: [Text]
-KILLER-FEHLER: [Text]
-ZIEL-METRIK: [Text]
+TEXT-HOOK: [der Text, der im Video eingeblendet wird]
+VISUAL-HOOK: [max. 5 Wörter — was man im Bild sieht, keine Szene]
+CAPTION-HOOK: [erster Satz der Caption — kein Wohnort, kein Alter, keine Familieninfo]
 
 HOOK 2 — NEUGIER-HOOK
 TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
-NEBEN-HOOK: [Text]
-AUDIO-EINSTIEG: [Text]
+VISUAL-HOOK: [max. 5 Wörter]
 CAPTION-HOOK: [Text]
-PSYCHOLOGIE: [Text]
-KILLER-FEHLER: [Text]
-ZIEL-METRIK: [Text]
 
 HOOK 3 — PROVOKATIONS-HOOK
 TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
-NEBEN-HOOK: [Text]
-AUDIO-EINSTIEG: [Text]
+VISUAL-HOOK: [max. 5 Wörter]
 CAPTION-HOOK: [Text]
-PSYCHOLOGIE: [Text]
-KILLER-FEHLER: [Text]
-ZIEL-METRIK: [Text]
 
 HOOK 4 — MOMENT-HOOK
 TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
-NEBEN-HOOK: [Text]
-AUDIO-EINSTIEG: [Text]
+VISUAL-HOOK: [max. 5 Wörter]
 CAPTION-HOOK: [Text]
-PSYCHOLOGIE: [Text]
-KILLER-FEHLER: [Text]
-ZIEL-METRIK: [Text]
 
 HOOK 5 — STOPP-HOOK
 TEXT-HOOK: [Text]
-VISUAL-HOOK: [max. 5 Wörter — was zu sehen ist]
-NEBEN-HOOK: [Text]
-AUDIO-EINSTIEG: [Text]
+VISUAL-HOOK: [max. 5 Wörter]
 CAPTION-HOOK: [Text]
-PSYCHOLOGIE: [Text]
-KILLER-FEHLER: [Text]
-ZIEL-METRIK: [Text]
 
 ━━━ BONUS: DEIN STÄRKSTER HOOK ━━━
-Welcher der 5 Hooks hat das höchste Viral-Potenzial für diese spezifische Nische und Zielgruppe — und warum genau? Ein Satz.
+Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
 """
 
             response = client.messages.create(
@@ -991,36 +967,18 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial für diese spezifische Nisc
             </div>
             """, unsafe_allow_html=True)
 
-            # Sub-Elemente: Umsetzung
-            st.caption("📸 **Visual-Hook** — *erste 3 Sekunden im Bild*")
+            # Sub-Elemente: Umsetzung (ganz einfach gehalten)
+            st.caption("📸 **Visual-Hook** — *was man im Video sieht*")
             st.write(visual_hook)
-            st.caption("🔁 **Neben-Hook** — *15–20 Sek. später einblenden*")
-            st.write(neben_hook)
-            st.caption("🎙️ **Audio-Einstieg** — *erster Satz in die Kamera, kein Hey*")
-            st.write(f'*„{audio}"*')
             st.caption("✍️ **Caption-Hook** — *erster Satz der Caption*")
             st.write(caption)
-
-            # Coach-Bereich: Psychologie + Killer-Fehler + Metrik
-            with st.expander("🧠 Warum funktioniert dieser Hook? + Killer-Fehler + Ziel-Metrik"):
-                st.markdown(f"**🧠 Psychologie**\n\n{psychologie}")
-                st.markdown("---")
-                st.markdown(f"**⚠️ Killer-Fehler** *(den 90% machen)*\n\n{killer}")
-                st.markdown("---")
-                st.markdown(f"**📊 Ziel-Metrik**\n\n{metrik}")
 
             # Copy-Paste Block
             copy_text = f"""📱 TEXT-HOOK:
 {text_hook}
 
-📸 VISUAL (erste 3 Sek.):
+📸 VISUAL:
 {visual_hook}
-
-🔁 NEBEN-HOOK (nach 15-20 Sek.):
-{neben_hook}
-
-🎙️ AUDIO-EINSTIEG:
-{audio}
 
 ✍️ CAPTION-HOOK:
 {caption}"""
