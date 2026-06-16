@@ -373,6 +373,7 @@ if st.button("Bio jetzt generieren"):
                 "Sachlich und professionell": "kompetent, präzise und vertrauenswürdig, ohne kühl oder distanziert zu wirken",
             }.get(ton, "klar, ehrlich und direkt auf Augenhöhe")
             prompt = f"""Du bist Instagram-Profil-Expertin und erstellst komplette Profil-Pakete auf Deutsch. Aktuelles Jahr: 2026. NIEMALS das Wort "Freebie" oder "Freebies" verwenden, immer "0€-Produkt" oder "Gratis-Tool".
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 
 KONTEXT:
 Name: {name or 'nicht angegeben'}

@@ -483,7 +483,8 @@ if step == 1:
             st.session_state.ziel       = ziel
 
             with st.spinner("Claude denkt sich 5 Reel-Ideen aus..."):
-                prompt = f"""Erstelle 5 spezifische Reel-Themen für diese Person:
+                prompt = f"""Erstelle 5 spezifische Reel-Themen für diese Person.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 Nische: {nische}
 Zielgruppe: {zielgruppe}
 Ziel des Reels: {ziel}
@@ -535,7 +536,8 @@ elif step == 2:
 
             with st.spinner("Hooks werden generiert..."):
                 thema  = topics[sel_idx]
-                prompt = f"""Erstelle 5 verschiedene Instagram-Hooks für dieses Reel:
+                prompt = f"""Erstelle 5 verschiedene Instagram-Hooks für dieses Reel.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 Nische: {st.session_state.nische}
 Zielgruppe: {st.session_state.zielgruppe}
 Thema: {thema}
@@ -598,7 +600,8 @@ elif step == 3:
 
             with st.spinner("Dein Reel-Skript wird geschrieben..."):
                 hook   = hooks[sel_idx]
-                prompt = f"""Schreibe ein vollständiges Reel-Skript für einen 45–60 Sekunden Reel:
+                prompt = f"""Schreibe ein vollständiges Reel-Skript für einen 45–60 Sekunden Reel.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 
 Nische: {st.session_state.nische}
 Zielgruppe: {st.session_state.zielgruppe}
@@ -682,7 +685,8 @@ elif step == 4:
     with col_next:
         if st.button("Caption & Hashtags erstellen →"):
             with st.spinner("Caption wird geschrieben..."):
-                prompt = f"""Schreibe eine Instagram-Caption für diesen Reel:
+                prompt = f"""Schreibe eine Instagram-Caption für diesen Reel.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 
 Thema: {thema}
 Hook (erste Zeile): {hook}

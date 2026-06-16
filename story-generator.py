@@ -60,6 +60,7 @@ def generiere_themen_ideen(api_key, nische, zielgruppe, story_typ):
     typ_text = "die verkaufen" if story_typ == "verkaufen" else "die Vertrauen und Verbindung aufbauen"
 
     prompt = f"""Du bist Instagram-Story-Expertin für deutschsprachige Creator. Aktuelles Jahr: 2026.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 
 KONTEXT:
 Nische: {nische}
@@ -128,6 +129,7 @@ Beispiel: offene Frage, Abstimmung, "schreib mir deine Antwort".
     )
 
     prompt = f"""Du bist Instagram-Story-Expertin auf dem Niveau der besten deutschen Content-Creator. Du kennst die psychologischen Prinzipien magnetischer Stories. Aktuelles Jahr: 2026.
+PFLICHT: Perfekte deutsche Rechtschreibung und Zeichensetzung in jedem Satz. Kommafehler, falsche Groß-/Kleinschreibung oder fehlende Satzzeichen sind nicht akzeptabel.
 
 {story_typ_anweisung}
 
