@@ -979,7 +979,7 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
             <div style="font-size:0.9rem; color:rgba(255,255,255,0.88);
                         line-height:1.6; margin-bottom:1.5rem; max-width:480px; margin-left:auto; margin-right:auto;">
                 Jetzt braucht es Content der die Hooks trägt — Reels, Stories, Karussells.
-                Im Kurs <strong style="color:white;">Content-Flow mit Claude</strong> baust du eine ganze Woche davon
+                Im Mini-Kurs <strong style="color:white;">Content Flow mit Claude Code</strong> baust du eine ganze Woche davon
                 in einer einzigen Session.
             </div>
             <a href="{KURS_URL}" target="_blank" style="
@@ -995,7 +995,7 @@ Welcher der 5 Hooks hat das höchste Viral-Potenzial — und warum? Ein Satz.
                 text-transform:uppercase;
                 box-shadow:0 6px 24px rgba(0,0,0,0.2);
                 transition:all 0.2s ease;">
-                Content-Flow mit Claude · 27 € →
+                Content Flow mit Claude Code · 27 € →
             </a>
             <div style="font-size:0.7rem; color:rgba(255,255,255,0.55);
                         margin-top:1rem; letter-spacing:0.05em;">
